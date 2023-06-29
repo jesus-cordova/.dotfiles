@@ -1,32 +1,19 @@
 return require("packer").startup(function(use)
 
     use 'wbthomason/packer.nvim'
-
-
+    --
+    use { 'stevearc/oil.nvim' }
+    use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
     --theme
-    use { "ellisonleao/gruvbox.nvim" }
-    use {
-        "mcchrish/zenbones.nvim",
-        -- Optionally install Lush. Allows for more configuration or extending the colorscheme
-        -- If you don't want to install lush, make sure to set g:zenbones_compat = 1
-        -- In Vim, compat mode is turned on as Lush only works in Neovim.
-        requires = "rktjmp/lush.nvim"
-    }
-    use("tpope/vim-fugitive")
+    use { "mcchrish/zenbones.nvim", requires = "rktjmp/lush.nvim" }
 
     --MLE plugins
-    use {
-        "windwp/nvim-autopairs",
-        config = function() require("nvim-autopairs").setup {} end
-    }
+    use { "windwp/nvim-autopairs", config = function() require("nvim-autopairs").setup {} end }
     use('mbbill/undotree')
-    use { 'nvim-tree/nvim-tree.lua' }
-    use { 'nvim-tree/nvim-web-devicons' }
-    --use { 'akinsho/bufferline.nvim' }
-    use {
-        'nvim-telescope/telescope.nvim', tag = '0.1.0',
-        requires = { { 'nvim-lua/plenary.nvim' } }
-    }
+    use { "debugloop/telescope-undo.nvim" }
+    use { 'nvim-telescope/telescope.nvim', tag = '0.1.0', requires = { { 'nvim-lua/plenary.nvim' } } }
+    use("tpope/vim-fugitive")
+    use { 'ThePrimeagen/harpoon' }
 
     --completion/treesitter
     use { 'hrsh7th/nvim-cmp' }
@@ -35,10 +22,7 @@ return require("packer").startup(function(use)
     use { 'hrsh7th/cmp-path' }
     use { 'L3MON4D3/LuaSnip' }
     use { 'saadparwaiz1/cmp_luasnip' }
-    use {
-        'nvim-treesitter/nvim-treesitter',
-        run = ':TSUpdate'
-    }
+    use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
 
     --lsp
     use { 'mfussenegger/nvim-jdtls' }

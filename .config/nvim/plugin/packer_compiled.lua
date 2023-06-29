@@ -99,10 +99,15 @@ _G.packer_plugins = {
     path = "/home/dawis/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["gruvbox.nvim"] = {
+  ["diffview.nvim"] = {
     loaded = true,
-    path = "/home/dawis/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
-    url = "https://github.com/ellisonleao/gruvbox.nvim"
+    path = "/home/dawis/.local/share/nvim/site/pack/packer/start/diffview.nvim",
+    url = "https://github.com/sindrets/diffview.nvim"
+  },
+  harpoon = {
+    loaded = true,
+    path = "/home/dawis/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
   },
   ["lush.nvim"] = {
     loaded = true,
@@ -151,20 +156,15 @@ _G.packer_plugins = {
     path = "/home/dawis/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
-  ["nvim-tree.lua"] = {
-    loaded = true,
-    path = "/home/dawis/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
-    url = "https://github.com/nvim-tree/nvim-tree.lua"
-  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/dawis/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
-  ["nvim-web-devicons"] = {
+  ["oil.nvim"] = {
     loaded = true,
-    path = "/home/dawis/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
-    url = "https://github.com/nvim-tree/nvim-web-devicons"
+    path = "/home/dawis/.local/share/nvim/site/pack/packer/start/oil.nvim",
+    url = "https://github.com/stevearc/oil.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -175,6 +175,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/dawis/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["telescope-undo.nvim"] = {
+    loaded = true,
+    path = "/home/dawis/.local/share/nvim/site/pack/packer/start/telescope-undo.nvim",
+    url = "https://github.com/debugloop/telescope-undo.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
