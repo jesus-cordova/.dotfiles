@@ -10,32 +10,32 @@ window:
 
 colors:
   primary:
-    foreground: '#202E18'
-    background: '#E5EDE6'
+    foreground: '#C6D5CF'
+    background: '#0F191F'
   cursor:
-    cursor: '#202E18'
-    text: '#E5EDE6'
+    cursor: '#CEDDD7'
+    text: '#0F191F'
   normal:
-    black:   '#E5EDE6'
-    red:     '#A8334C'
-    green:   '#567A30'
-    yellow:  '#944927'
-    blue:    '#286486'
-    magenta: '#88507D'
-    cyan:    '#3B8992'
-    white:   '#202E18'
+    black:   '#0F191F'
+    red:     '#DE6E7C'
+    green:   '#90FF6B'
+    yellow:  '#B77E64'
+    blue:    '#8190D4'
+    magenta: '#B279A7'
+    cyan:    '#66A5AD'
+    white:   '#C6D5CF'
   bright:
-    black:   '#B3C6B6'
-    red:     '#94253E'
-    green:   '#3F5A22'
-    yellow:  '#803D1C'
-    blue:    '#1D5573'
-    magenta: '#7B3B70'
-    cyan:    '#2B747C'
-    white:   '#415934'
-
+    black:   '#263945'
+    red:     '#E8838F'
+    green:   '#A0FF85'
+    yellow:  '#D68C67'
+    blue:    '#92A0E2'
+    magenta: '#CF86C1'
+    cyan:    '#65B8C1'
+    white:   '#98A39E'
 
 font:
     normal:
         family : "Hack Nerd Font"
         #style: Bold
+       #style: Bold
